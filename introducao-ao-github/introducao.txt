@@ -1,1 +1,83 @@
-Este arquivo tem finalidade apenas para teste.
+# Comandos feitos com o git bash :heart_decoration:
+
+######                                         Oi, essas são as minhas anotações sobre alguns comandos realizados no git bash.
+
+###### Comandos: 
+
+
+
+* ls -lista as coisas da pasta
+
+* atalho para limpar a tela = ctrl+L
+
+* cd: entra na pasta
+
+* mkdir: cria pasta
+
+* mover pasta - mv ''nomedoarquivo" ./nomedapasta
+
+* cd .. = voltar um nivel de pasta
+
+* git add nomedoarquivo nomedapasta
+
+* git commit -m "cria pasta nomedapasta, move arquivo para receitas" (
+
+  aspas quer dizer comentario)
+
+  * echo > README.md
+
+    
+
+
+
+###### Empurrar (push) o repositorio local para remoto
+
+comando:
+
+git remote add origin (link do repositorio do git)
+
+git status pra ver se ta tudo ok
+
+pra mandar pro remoto:
+
+git push origin master
+
+vai pedir credencial, usar o token e não a senha.
+
+
+
+###### Parte que ele modifica o arquivo readme
+
+git status vai apresentar modificação
+
+* git add * - adiciona tudo 
+
+* git status pra ver se moveu o arquivo
+
+  ###### fazer o commit
+
+  git commit -m "adiciona comentario"
+
+​       git push origin master
+
+###### Para clonar um projeto do github
+
+git clone "colocar url do projeto" 
+
+# REVISÃO NA ETAPA DO DESAFIO DO REPOSITORIO 
+
+##### Criei uma pasta, fiz o clone do repositorio na nuvem para o local com o comando  > git clone linkdorepositorio <
+
+##### ldap5a+ana.carvalho.ita@BRSPPN-1C61RK3 MINGW64 /c/workspac/clone (master)
+$ cd dio-desafiogithub/ 
+
+// *cd dio-desafiogithub/ para entrar na main* //
+// *dio-desafiogithub é o nome da pasta clonada* //
+
+#### Git status para verificar se ta ok a modificação 
+
+#### Criei mais uma pasta, com um arquivo txt para acrescentar no repositorio nuvem com o comando:
+
+* git add . 
+* git commit -m "escrever comentario"
+* git push origin main
