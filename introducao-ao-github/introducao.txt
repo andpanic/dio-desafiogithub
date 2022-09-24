@@ -1,6 +1,6 @@
-# Comandos feitos com o git bash :heart_decoration:
+Comandos feitos com o git bash :heart_decoration:
 
-######                                         Oi, essas são as minhas anotações sobre alguns comandos realizados no git bash.
+Oi, essas são as minhas anotações sobre alguns comandos realizados no git bash.
 
 ###### Comandos: 
 
@@ -20,11 +20,9 @@
 
 * git add nomedoarquivo nomedapasta
 
-* git commit -m "cria pasta nomedapasta, move arquivo para receitas" (
+* git commit -m "cria pasta nomedapasta, move arquivo para receitas" (aspas quer dizer comentario)
 
-  aspas quer dizer comentario)
-
-  * echo > README.md
+* echo > README.md
 
     
 
@@ -50,7 +48,7 @@ vai pedir credencial, usar o token e não a senha.
 
 git status vai apresentar modificação
 
-* git add * - adiciona tudo 
+* git add .
 
 * git status pra ver se moveu o arquivo
 
@@ -58,21 +56,21 @@ git status vai apresentar modificação
 
   git commit -m "adiciona comentario"
 
-​       git push origin master
+  git push origin master
 
 ###### Para clonar um projeto do github
 
 git clone "colocar url do projeto" 
 
-# REVISÃO NA ETAPA DO DESAFIO DO REPOSITORIO 
+# REVISÃO NA ETAPA DO DESAFIO DO REPOSITORIO, ultima aula.
 
-##### Criei uma pasta, fiz o clone do repositorio na nuvem para o local com o comando  > git clone linkdorepositorio <
+##### Criei uma pasta com o comando > mkdir <  fiz o clone do repositorio na nuvem para o local com o comando  > git clone linkdorepositorio <
 
 ##### ldap5a+ana.carvalho.ita@BRSPPN-1C61RK3 MINGW64 /c/workspac/clone (master)
 $ cd dio-desafiogithub/ 
 
-// *cd dio-desafiogithub/ para entrar na main* //
-// *dio-desafiogithub é o nome da pasta clonada* //
+// cd dio-desafiogithub/ para entrar na main //
+// dio-desafiogithub é o nome da pasta clonada //
 
 #### Git status para verificar se ta ok a modificação 
 
