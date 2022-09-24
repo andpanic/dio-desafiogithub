@@ -1,3 +1,8 @@
-# Repositorio criado para o desafio da Dio.me! :heart_decoration:
 
-  Hello World, essas são as minhas anotações sobre alguns comandos realizados no git bash.
+# Hello World! :heart_decoration:
+
+In this repository we have my notes about the intro course to git/github. This repository was also used to send the challenge to Dio.me.
+
+
+
+*See ya :)*
